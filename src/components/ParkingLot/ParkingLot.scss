@@ -1,0 +1,31 @@
+@import "@/styles/variable";
+
+.parking-lot-container {
+  margin-top: 64px;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+
+  .title {
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  .card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .card-container {
+    background: $light-blue;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    min-width: 20rem;
+    padding: 1.6rem;
+    cursor: pointer;
+  }
+}
